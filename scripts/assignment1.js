@@ -12,9 +12,6 @@ console.log(hero + " was visiting " + place + " on " + moment + ".");
 console.log("suddenly, " + hero + " saw " + strangeThing + " and " + activity + ".");
 console.log("It turned out to be " + event + " and everything became chaotic!");
 
-
-
-
 console.log("--- different version of the story ---");
 
 hero = "Natalia";
