@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Temperature Dashboard</h1>
+
+    <button onclick="convertCtoF()">Celsius to Fahrenheit</button>
+    
+    <button onclick="convertFtoC()">Fahrenheit to Celsius</button>
+    
+    <p id="result"></p>
+    
+    <div id="thermo"></div>
+
+    <button onclick="fillThermo()">fill thermo</button>
+    <button onclick="generateTable()">generate Table</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Celsius</th>
+                <th>Fahrenheit</th>
+            </tr>
+        </thead>
+    
+        <tbody id="temps">
+        </tbody>
+    </table>
+
+    <script src="./scripts/loop.js"></script>
+</body>
+</html>

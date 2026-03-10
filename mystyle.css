@@ -5,3 +5,17 @@
 .hot{
     color:red;
 }
+
+#thermo{
+    border: 1px solid black;
+    height: 300px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+
+.level{
+    height: 9%;
+    background-color: red;
+    margin-bottom: 2px;
+}
